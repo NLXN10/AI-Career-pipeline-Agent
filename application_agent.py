@@ -3,7 +3,7 @@ import os
 
 # 1. Setup your API Key
 # Replace "YOUR_API_KEY_HERE" with your actual key from Google AI Studio
-os.environ["GEMINI_API_KEY"] = "AIzaSyCUsYRh2HfV5EbZz6V2O2zUZOOaoSXHMv0"
+os.environ["GEMINI_API_KEY"] = "YOUR_API_KEY_HERE"
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
 # 2. Define your "Base Profile" 
